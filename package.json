@@ -1,0 +1,24 @@
+{
+  "name": "cookie_sync",
+  "version": "1.0.0",
+  "description": "Cookie syncing example for Lambda@Edge",
+  "dependencies": {
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "aws-lambda-local": "^1.0.15"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install:invoke": "cd functions/install && lambda-local -f index.js -e event.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ClearcodeHQ/cookie-sync-lambda.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPLv3"
+}

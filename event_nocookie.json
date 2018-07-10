@@ -1,0 +1,36 @@
+{
+  "Records": [
+    {
+      "cf": {
+        "request": {
+          "headers": {
+            "host": [
+              {
+                "value": "d123.cf.net",
+                "key": "Host"
+              }
+            ],
+            "cookie": [
+              {
+                "value": "",
+                "key": "Cookie"
+              }
+            ],
+            "user-agent": [
+              {
+                "value": "Test Agent",
+                "key": "User-Agent"
+              }
+            ]
+          },
+          "clientIp": "2001:cdba::3257:9652",
+          "uri": "/getuid/http://id.dmp.com/pixel.gif?dsp_uid=$UID",
+          "method": "GET"
+        },
+        "config": {
+          "distributionId": "EXAMPLE"
+        }
+      }
+    }
+  ]
+}
